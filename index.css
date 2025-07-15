@@ -47,7 +47,7 @@
     padding: 20px;
     margin: 10px;
     text-align: center;
-    width: 300px;
+    width: 200px;
 }
 .res-logo {
     width: 100%;
@@ -59,4 +59,16 @@
 .res-card-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.filterButton{
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
 }
